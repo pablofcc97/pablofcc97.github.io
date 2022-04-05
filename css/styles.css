@@ -201,7 +201,7 @@ img{
 }
 
 /*olas*/
-.wave{
+/*.wave{
     position: absolute;
     top: 0;
     right: -49%;
@@ -211,7 +211,7 @@ img{
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 20%;
-}
+}*/
 
 
 
@@ -419,7 +419,7 @@ img{
     width: 50%;
 }
 .skills__uxui{
-    width: 25%;
+    width: 45%;
 }
 .skills__mysql{
     width: 60%;
@@ -563,7 +563,8 @@ img{
 
 .works__container{
     justify-items: center;
-    row-gap: 2rem;
+    row-gap: 3rem;
+    column-gap: 4rem;
 }
 
 .works__img{
@@ -597,6 +598,7 @@ img{
     top: 0;
     font-size: var(--h2-font-size);
     color: var(--first-color-lighten);
+    margin-top: .5rem;
 }
 .works__title{
     font-size: 1.5rem;
@@ -790,7 +792,7 @@ margin-bottom: 3rem;
 @media screen and (min-width: 1201px){
     body{
         margin:0;
-       padding-left:calc(426px + 8vw);
+        padding:0 6rem 0 calc(426px + 5vw);
     }
 
     .l-header{
@@ -811,8 +813,7 @@ margin-bottom: 3rem;
         padding: 3rem 0 2rem;
     }
 
-    .services__container,
-    .works__container{
+    .services__container{
         grid-template-columns: repeat(3,1fr);
     }
 }
