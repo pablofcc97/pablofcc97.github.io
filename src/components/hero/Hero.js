@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import './hero.css'
 import Foto from '../../assets/Pablo Fabian Cuba Chacon.png'
 import SocialIcons from "../general/socialIcons/SocialIcons";
