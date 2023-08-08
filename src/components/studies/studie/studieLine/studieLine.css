@@ -1,0 +1,20 @@
+.studieLine{
+    flex-direction: column;
+    align-items: center;
+}
+.circle{
+    border-radius: 50%;
+    width: 1.46rem;
+    height:1.46rem;
+    background-color: var(--first-color);
+}
+.line{
+    width: 2px;
+    height: calc(100% - 1.46rem);
+    background-color: var(--white-color);
+}
+@media(max-width:700px){
+    .line{
+        width: 1px;
+    }
+}

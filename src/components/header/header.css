@@ -1,0 +1,106 @@
+.header {
+    height: var(--header-height);
+    background-color: var(--background-color);
+    z-index: var(--z-fixed);
+    position: fixed;
+    top:0;
+    transition: height .3s linear, top .3s linear;
+    width:100%;
+}
+.header--resized{
+    height: 5rem;
+    /*box-shadow: 0 2px 8px #00000038;*/
+}
+.header--hide{
+    top:-5rem;
+    height: 5rem;
+}
+.header .container{
+    justify-content: space-between;
+    align-items: center;
+}
+.logo__icon{
+    color:var(--text-color);
+    font-size: 1.86rem;
+    font-family: var(--tittle-font);
+    font-weight: var(--font-light);
+}
+.nav__items{
+   gap:2.5rem; 
+}
+.nav__link{
+    color: var(--text-color);
+    font-weight: var(--font-semibold);
+    font-size: 1.06rem;
+    font-style: normal;
+    position: relative;
+    overflow-x: hidden;
+}
+.nav__link::before{
+    bottom: -.5rem;
+    left: 0;
+    height: 1px;
+    width: 0;
+    background-color: var(--second-color--light);
+    transition: width .5s ease;
+}
+.nav__link:hover::before{
+    width: 100%;
+}
+/*=====TOGGLE ICONS SECTION========*/
+.nav__toggle{
+    display: none;
+}
+@media(max-width:1100px){
+    .header .container{
+        transition: background-color .3s linear;
+    }
+    .header--toggled .container{
+        background-color: var(--second-color);
+    }
+    /*=====VERTICAL MENU SECTION========*/
+    .nav{
+        position: absolute;
+        top: -100vh;
+        left: 0;
+        transition: top .35s linear;
+        width: 100%;
+        z-index: -1;
+        padding: .5rem 0 3rem;
+        background-color: var(--second-color);
+    }
+    .nav__items{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav--toggled{
+        top: var(--header-height);
+    }
+    .nav__link{
+        font-weight: var(--font-medium);
+    }
+    .nav__link::before{
+        background-color: var(--second-color--extraLight);
+    }
+    .header--toggled .logo__icon, .nav__link{
+        color:var(--white-color)
+    }
+    .nav__toggle{
+        display: block;
+        position: relative;
+        width: 2rem;
+    }
+    .nav__toggle__img{
+        opacity: 1;
+        position: absolute;
+        top:0;
+        left: 0;;
+    }
+    .nav__toggle__img--hidden{
+        opacity: 0;
+    }
+    
+}
+@media(max-width:700px){
+    
+}

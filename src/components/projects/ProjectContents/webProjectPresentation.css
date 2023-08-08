@@ -1,0 +1,10 @@
+.webProjectPresentation{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.webProject__content{
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    width: 100%;
+}

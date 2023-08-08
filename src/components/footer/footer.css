@@ -1,0 +1,31 @@
+.footer{
+    background-color:var(--second-color);
+    padding: 3rem 0;
+}
+.footer .container{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer span, .footer p{
+    color:var(--text-color-alter);
+}
+.footer__logo{
+    gap:1rem;
+}
+.footer__logo__name{
+    font-size: 1.6rem;
+    font-family: var(--tittle-font);
+}
+.footer__logo__ocupation{
+    font-size: 1.33rem;
+    font-weight: var(--font-light);
+}
+@media(max-width:700px){
+    .footer .container{
+        flex-direction: column;
+    }
+    .footer__logo{
+        margin-bottom: 2rem;
+    }
+}

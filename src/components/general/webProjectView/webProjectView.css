@@ -1,0 +1,32 @@
+.webProjectView{
+    flex-direction: column;
+    align-items:center;
+    gap:1.5rem;
+}
+.webProjectView__img{
+    height: 16rem;
+    width: 25rem;
+    background-size: cover;
+    background-position: top;
+    overflow:hidden;
+    transition: background-position .7s linear;
+}
+.webProjectView__img:hover{
+    background-position: bottom;
+}
+.webProjectView__img--extralarge:hover{
+    transition: background-position 15s linear;
+}
+.webProjectView__img--large:hover{
+    transition: background-position 9s linear;
+}
+.webProjectView__img--medium:hover{
+    transition: background-position 4s linear;
+}
+.webProjectView__img--short:hover{
+    transition: background-position 2s linear;
+}
+
+.webProjectView__title{
+    font-weight: var(--font-semibold);
+}

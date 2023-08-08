@@ -1,0 +1,25 @@
+/*.Tab__content{
+    position:absolute;
+    top:0;
+    left: 0;
+    z-index: 0;
+    background-color: var(--background-color);
+    width: 100%;
+    padding: 2.5rem 1.5rem;
+}
+.content--active{
+    z-index: var(--z-tooltip);
+}*/
+.Tab__content{
+    grid-column: 1;
+    grid-row: 1;
+    z-index: 0;
+    padding: 4rem;
+    opacity: 0;
+    background-color:#EEE;
+    border-radius:10px;
+}
+.content--active{
+    z-index: var(--z-tooltip);
+    opacity: 1;
+}

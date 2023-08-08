@@ -1,4 +1,206 @@
-.App {
+/*======GOOGLE FONTS=======*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500&display=swap');
+
+:root{
+  --header-height: 9.13rem;
+
+  /*====COLORS=====*/
+  --background-color:#f5F5F5;
+  --first-color: #FFAF29;
+  --first-color--light: #FFBD4E;
+  --second-color: #23283A;
+  --second-color--light:#323647;
+  --second-color--extraLight:#424657;
+  --text-color:#000;
+  --text-color-alter: #dadada;
+  --tittle-color:#000;
+  --white-color:#fff;
+  --gray-color:#CACACA;
+  --gray-color--light:#E5E5E5;
+
+  /*=====FONT AND TYPOGRAPHY=======*/
+  --tittle-font: 'Rubik', sans-serif;
+  --body-font: 'Raleway', sans-serif;
+
+  --h1-size:  3.2rem;
+  --h2-size:  2.4rem;
+  --h3-size:  1.6rem;
+  --h4-size:  1.46rem;
+  --p-size: 1rem;
+  --button-size: 1.06rem;
+
+  --font-extralight:200;
+  --font-light:300;
+  --font-normal:400;
+  --font-medium:500;
+  --font-semibold:600;
+
+  /*========MARGINS AND PADDINGS==========*/
+  --section-padding:6.3rem;
+  --h2-margin-bottom: 4rem;
+
+  /*======Z-INDEX=======*/
+  --z-tooltip:10;
+  --z-fixed:100;
+  --z-modal:1000;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+*::-webkit-scrollbar {
+  width: .4rem;
+  height: 10px;
+  background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+  background: #787878;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+html{
+  font-size:15px;
+  scroll-behavior: smooth;
+}
+body{
+  overflow: overlay;
+  background-color: var(--background-color);
+}
+body, input, textarea{
+  font-family: var(--body-font);
+  font-size: var(--p-size);
+  color:var(--text-color);
+  font-weight: var(--font-light);
+  line-height: 1.6em;
+}
+a{
+  text-decoration: none;
+  font-weight: var(--font-normal);
+  font-family: var(--tittle-font);
+}
+h1,h2,h3,h4{
+  font-family: var(--tittle-font);
+  color:var(--tittle-color);
+  line-height: 1.5em;
+}
+h1{
+  font-size: var(--h1-size);
+  font-weight: var(--font-semibold);
+}
+h2{
+  font-size: var(--h2-size);
+  font-weight: var(--font-semibold);
+  margin-bottom:3.2rem;
+}
+h3{
+  font-size: var(--h3-size);
+  font-weight: var(--font-medium);
+  margin-bottom: 1.86rem;
+}
+h4{
+  font-size: var(--h4-size);
+  font-weight: var(--font-medium);
+}
+ul{
+  list-style: none;
+}
+img{
+  max-width:100%;
+  height:auto;
+}
+
+/*=========REUSABLE CSS CLASSES============*/
+.section{
+  /*padding: var(--section-padding) 0;*/
+}
+.container{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.grid{
+  display: grid;
+}
+.flex{
+  display: flex;
+}
+.before::before, .after::after{
+  content: '';
+  display: block;
+  position: absolute;
+}
+.section--alter h2, .section--alter h3, .section--alter h4{
+  color:var(--white-color)
+}
+.section--alter p, .section--alter span, .section--alter li{
+  color:var(--text-color-alter)
+}
+.imageDescription{
+  text-align: center;
+  margin-top:1.5rem;
+}
+/*=============BUTTONS=================*/
+.button{
+  background-color: var(--first-color);
+  border-radius: 5px;
+  padding: 0.73rem 3.3rem;
+  font-size: var(--button-size);
+  font-weight: var(--font-medium);
+  cursor: pointer;
+  border: none;
+  outline: none;
+  display: inline-block;
+  color: var(--text-color);
+  transition: background-color .1s linear, transform .1s linear;
+}
+.button:hover{
+  background-color: var(--first-color--light);
+  transform: scale(1.03);
+}
+.button__icon{
+  margin-left: 0.5rem;
+}
+.button--flex{
+  display:inline-flex;
+  align-items: center;
+}
+
+@media(max-width:1100px){
+  :root{
+    --header-height: 6rem;
+    --section-padding:2rem;
+    --h1-size:  3rem;
+  }
+  .container{
+    padding: 0 5%;
+  }
+  h2{
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+}
+
+@media(max-width:700px){
+  :root{
+    --header-height: 6rem;
+    --section-padding:2rem;
+    --h1-size:  2.2rem;
+    --h2-size:  1.65rem;
+    --h3-size:  1.4rem;
+  }
+  h2{
+    margin-bottom: 2.4rem;
+  }
+  .section--alter{
+    background-color: var(--second-color);
+  }
+}
+
+/*.App {
   text-align: center;
 }
 
@@ -35,4 +237,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+}*/

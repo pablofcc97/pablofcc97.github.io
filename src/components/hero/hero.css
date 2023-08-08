@@ -1,0 +1,96 @@
+.hero{
+    padding:  calc(var(--header-height) + var(--section-padding)) 0 var(--section-padding)
+}
+.hero .container{
+    align-items: stretch;
+    justify-content: space-between;
+}
+.hero__info{
+    flex-direction: column;
+    justify-content: space-between;
+    padding:5px 0
+}
+.hero__presentation__greeting{
+    gap:1rem;
+    margin-bottom: .5rem;
+    align-items: flex-end;
+}
+.presentation__greeting__hi{
+    font-size: 2.3rem;
+    font-weight: var(--font-medium);
+}
+.presentation__greeting__iam{
+   font-size: 1.6rem;
+}
+.hero__presentation__name{
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+.hero__presentation__ocupation{
+    font-family: var(--body-font);
+    font-size: 1.46rem;
+    font-weight: var(--font-light);
+    display: block;
+    line-height: 1.5em;
+}
+.hero .socialIcons{
+    margin-bottom: 1.8rem;
+}
+.hero__contact__mail{
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 1.5rem;
+}
+.hero__photo{
+    width: 349px;
+    height: auto;
+}
+@media(max-width:1100px){
+    .hero{
+        padding: var(--header-height) 0 5rem;
+    }
+    .hero .container{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .hero__info{
+        align-items: center;
+    }
+    .hero__info__presentation{
+        margin-bottom: 3rem;
+    }
+    .hero__presentation__name{
+        text-transform: none;
+    }
+    .hero__presentation__ocupation{
+        text-align: center;
+    }
+    .hero__photo{
+        width: 249px;
+    }
+}
+@media(max-width:700px){
+    
+    .presentation__greeting__hi{
+        font-size: 1.8rem;
+    }
+    .presentation__greeting__iam{
+        font-size: 1.2rem;
+     }
+     .hero__presentation__name span:last-child{
+        display: block;
+        text-align: right;
+     }
+    .hero__presentation__ocupation{
+        font-size: 1.2rem;
+    }
+    .hero__contact__social{
+        margin-bottom: .5rem;
+    }
+    .hero__contact__mail{
+        margin-bottom: 2rem;
+    }
+    .hero__photo{
+        width: 220px;
+    }
+  }

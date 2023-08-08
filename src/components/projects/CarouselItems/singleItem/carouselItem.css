@@ -1,0 +1,21 @@
+.carousel__item{
+    align-items: center;
+    justify-content: space-between;
+    gap:4rem;
+    padding: 0 2rem;
+}
+@media(max-width:1100px){
+    .carousel__item{
+        flex-direction: column;
+    }
+}
+@media(max-width:700px){
+    .carousel__item{
+        gap:2rem;
+        padding: 0;
+        flex-direction: column-reverse;
+    }
+    .carousel__project__banner{
+        width: 60%;
+    }
+}
