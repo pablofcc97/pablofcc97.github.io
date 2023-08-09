@@ -1,4 +1,4 @@
-import React, {useState, useContext} from "react";
+import React, {useContext} from "react";
 import PositionContext from "../../../positionContext";
 import './carousel.css'
 import ChevronLeft from '../../../assets/chevron--left.svg'

@@ -1,4 +1,4 @@
-import React, {useState, useRef} from "react"
+import React, {useState} from "react"
 import './header.css'
 import MenuIcon from '../../assets/menuIcon.svg'
 import MenuIconWhite from '../../assets/menuIcon--white.svg'
