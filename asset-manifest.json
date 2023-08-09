@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "http://localhost:3000/static/css/main.19302793.css",
-    "main.js": "http://localhost:3000/static/js/main.13e4545a.js",
+    "main.js": "http://localhost:3000/static/js/main.b86c276e.js",
     "static/js/787.ae0d8d37.chunk.js": "http://localhost:3000/static/js/787.ae0d8d37.chunk.js",
     "static/media/cv Pablo Fabian Cuba Chacon.pdf": "http://localhost:3000/static/media/cv Pablo Fabian Cuba Chacon.1122754f8d32fa90b717.pdf",
     "static/media/diplomadoExtra.jpg": "http://localhost:3000/static/media/diplomadoExtra.66cd2cd30f8e38f3b3f4.jpg",
@@ -82,11 +82,11 @@
     "static/media/studiesBackground-2.svg": "http://localhost:3000/static/media/studiesBackground-2.2840e6e286cc4eb43287.svg",
     "static/media/arrowRight.svg": "http://localhost:3000/static/media/arrowRight.2a443afa18a8db97bd77c40bcf6a0d10.svg",
     "main.19302793.css.map": "http://localhost:3000/static/css/main.19302793.css.map",
-    "main.13e4545a.js.map": "http://localhost:3000/static/js/main.13e4545a.js.map",
+    "main.b86c276e.js.map": "http://localhost:3000/static/js/main.b86c276e.js.map",
     "787.ae0d8d37.chunk.js.map": "http://localhost:3000/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.19302793.css",
-    "static/js/main.13e4545a.js"
+    "static/js/main.b86c276e.js"
   ]
 }
