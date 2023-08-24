@@ -22,11 +22,11 @@ const ContactForm = () =>{
             <div className="formInputs flex">
                 <div className="reminderInfoContainer">
                     <div className="inputContainer">
-                        <label for="name">Nombre</label>
+                        <label for="user_name">Nombre</label>
                         <input type="text" id="name" name="user_name" />
                     </div>
                     <div className="inputContainer">
-                        <label for="email">Correo</label>
+                        <label for="user_email">Correo</label>
                         <input type="email" id="email" name="user_email" />
                     </div>
                 </div>
