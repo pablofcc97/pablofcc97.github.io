@@ -6,15 +6,16 @@ const ContactForm = () =>{
 
     const form = useRef();
 
-    const sendEmail = (e) => {
-        e.preventDefault();
+        const sendEmail = (e) => {
+            e.preventDefault();
 
-        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
-        .then((result) => {
-            console.log(result.text);
-        }, (error) => {
-            console.log(error.text);
-    });
+            emailjs.sendForm('service_k9ygopd', 'template_4qieklp', form.current, 'jOyhu4vLNpgWhXTrh')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+        });
+    }
 
     return (
         <form ref={form} onSubmit={sendEmail} className="contactForm flex">
