@@ -1,26 +1,40 @@
-import React from "react";
+import React, {useRef} from "react";
 import './contactForm.css'
+import emailjs from '@emailjs/browser';
 
 const ContactForm = () =>{
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+    });
+
     return (
-        <form className="contactForm flex">
+        <form ref={form} onSubmit={sendEmail} className="contactForm flex">
             <div className="formInputs flex">
                 <div className="reminderInfoContainer">
                     <div className="inputContainer">
                         <label for="name">Nombre</label>
-                        <input type="text" id="name" name="reminder_name" />
+                        <input type="text" id="name" name="user_name" />
                     </div>
                     <div className="inputContainer">
                         <label for="email">Correo</label>
-                        <input type="email" id="email" name="reminder_email" />
+                        <input type="email" id="email" name="user_email" />
                     </div>
                 </div>
                 <div className="reminderMessageContainer flex">
                     <label for="message">Mensaje</label>
-                    <textarea name="reminder_message" id="message" ></textarea>
+                    <textarea name="message" id="message" ></textarea>
                 </div>
             </div>
-            <button type="submit" className="button">Envíe su mensaje</button>
+            <button type="submit" value='send' className="button">Envíe su mensaje</button>
         </form>
     )
 }
