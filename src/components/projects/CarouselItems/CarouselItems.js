@@ -25,16 +25,16 @@ import SpssLogo from '../../../assets/carouselProjects/spss__banner.jpg'
 import TapifLogo from '../../../assets/carouselProjects/tapif__banner.jpg'
 
 const carousel =[
-    <CarouselItem logo={BitacoraLogo}  mockup={BitacoraMockup} />,
-    <CarouselItem logo={SiproLogo}  mockup={SiproMockup} />,
-    <CarouselItem logo={DiploLogo}  mockup={DiploMockup} />,
-    <CarouselItem logo={BioestadisticoLogo}  mockup={BioestadisticoMockup} />,
-    <CarouselItem logo={CemtLogo}  mockup={CemtMockup}  />,
-    <CarouselItem logo={JoseSupoLogo}  mockup={JoseSupoMockup} />,
-    <CarouselItem logo={CarlSaganLogo}  mockup={KinderMockup}  />,
-    <CarouselItem logo={SincieLogo}  mockup={SincieMockup}  />,
-    <CarouselItem logo={SpssLogo}  mockup={SpssMockup}/>,
-    <CarouselItem logo={TapifLogo}  mockup={TapifMockup} />
+    <CarouselItem logo={BitacoraLogo}  mockup={BitacoraMockup} link={'https://bitacorawp.com/'}/>,
+    <CarouselItem logo={SiproLogo}  mockup={SiproMockup} link={'https://seminariosdeinvestigacion.com/3-0'}/>,
+    <CarouselItem logo={DiploLogo}  mockup={DiploMockup} link={'https://diplomadoeninvestigacion.com/'}/>,
+    <CarouselItem logo={BioestadisticoLogo}  mockup={BioestadisticoMockup} link={'https://bioestadistico.com/'}/>,
+    <CarouselItem logo={CemtLogo}  mockup={CemtMockup}  link={'https://comoempezarunatesis.com/'}/>,
+    <CarouselItem logo={JoseSupoLogo}  mockup={JoseSupoMockup} link={'https://josesupo.com/'}/>,
+    <CarouselItem logo={CarlSaganLogo}  mockup={KinderMockup}  link={'https://carlsagankinder.com/'}/>,
+    <CarouselItem logo={SincieLogo}  mockup={SincieMockup}  link={'https://sincie.com/'}/>,
+    <CarouselItem logo={SpssLogo}  mockup={SpssMockup} link={'https://cursodespss.com/'}/>,
+    <CarouselItem logo={TapifLogo}  mockup={TapifMockup} link={'https://tallerdetesis.com/carta/'}/>
 ]
 
 

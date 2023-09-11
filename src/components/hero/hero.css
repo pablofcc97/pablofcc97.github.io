@@ -1,5 +1,5 @@
 .hero{
-    padding:  calc(var(--header-height) + var(--section-padding)) 0 var(--section-padding)
+    padding:  calc(var(--header-height) + var(--section-padding)/1.5) 0 var(--section-padding);
 }
 .hero .container{
     align-items: stretch;
@@ -47,7 +47,7 @@
 }
 @media(max-width:1100px){
     .hero{
-        padding: var(--header-height) 0 5rem;
+        padding: var(--header-height) 0 var(--section-padding);
     }
     .hero .container{
         flex-direction: column-reverse;
@@ -70,27 +70,31 @@
     }
 }
 @media(max-width:700px){
-    
+    .hero__info__presentation{
+        margin-bottom: 2.5rem;
+    }
     .presentation__greeting__hi{
         font-size: 1.8rem;
     }
-    .presentation__greeting__iam{
-        font-size: 1.2rem;
+    .presentation__greeting__hi{
+        font-size: 1.4rem;
      }
      .hero__presentation__name span:last-child{
         display: block;
         text-align: right;
+        margin-top: -.2rem;
      }
     .hero__presentation__ocupation{
         font-size: 1.2rem;
     }
-    .hero__contact__social{
-        margin-bottom: .5rem;
+    .hero .socialIcons{
+        margin-bottom: .6rem;
     }
     .hero__contact__mail{
         margin-bottom: 2rem;
     }
     .hero__photo{
         width: 220px;
+        margin-bottom: 1rem;
     }
   }

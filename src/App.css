@@ -172,7 +172,7 @@ img{
 @media(max-width:1100px){
   :root{
     --header-height: 6rem;
-    --section-padding:2rem;
+    --section-padding:5rem;
     --h1-size:  3rem;
   }
   .container{
@@ -187,12 +187,13 @@ img{
 @media(max-width:700px){
   :root{
     --header-height: 6rem;
-    --section-padding:2rem;
+    --section-padding:4.5rem;
     --h1-size:  2.2rem;
     --h2-size:  1.65rem;
     --h3-size:  1.4rem;
   }
   h2{
+    font-size:1.8rem;
     margin-bottom: 2.4rem;
   }
   .section--alter{

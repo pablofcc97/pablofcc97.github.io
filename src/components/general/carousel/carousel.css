@@ -32,12 +32,12 @@
     }
     .carousel__nav__button{
         position:absolute;
-        bottom: -70px;
+        bottom: 5px;
     }
     .carousel .button--left{
-        left: 30%;
+        left: 5%;
     }
     .carousel .button--right{
-        right: 30%;
+        right: 5%;
     }
 }
