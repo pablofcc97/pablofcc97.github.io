@@ -11,7 +11,7 @@ import Project9 from './project9/project'
 import Project10 from './project10/project'
 
 const ProjectContents = [
-    <Project description={'SIPRO 3.0 es la nueva versión de un curso en linea SIPRO, la cual forma parte del diplomado en investigación científica que ofrece la Sociedad  Hispana de Investigadores científicos:'}>
+    <Project description={'BitácoraWP es un blog personal en el cual público artículos sobre los conocimientos, trucos, consejos que voy adquiriendo como desarrollador web y wordpress'}>
         <Project10/>
     </Project>,
     <Project description={'SIPRO 3.0 es la nueva versión de un curso en linea SIPRO, la cual forma parte del diplomado en investigación científica que ofrece la Sociedad  Hispana de Investigadores científicos:'}>

@@ -1,0 +1,21 @@
+.toast{
+    position: absolute;
+    bottom: -3.5rem;
+    right: 32%;
+    border-radius: 2rem;
+    padding: .5rem 1rem;
+    z-index: var(--z-modal);
+    transition: opacity .5s linear;
+}
+.toast.success{
+    background-color:rgb(162, 235, 162);
+}
+.toast.info{
+    background-color:var(--first-color--light);
+}
+.toast.error{
+    background-color:rgb(247, 147, 147);
+}
+.toast__message{
+    font-weight: var(--font-medium);
+}
