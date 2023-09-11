@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.9a77818b.css",
-    "main.js": "/portafolio/static/js/main.f7212d2d.js",
+    "main.css": "/portafolio/static/css/main.c2e21adc.css",
+    "main.js": "/portafolio/static/js/main.54dd1429.js",
     "static/js/787.ae0d8d37.chunk.js": "/portafolio/static/js/787.ae0d8d37.chunk.js",
     "static/media/cv Pablo Fabian Cuba Chacon.pdf": "/portafolio/static/media/cv Pablo Fabian Cuba Chacon.1122754f8d32fa90b717.pdf",
     "static/media/diplomadoExtra.jpg": "/portafolio/static/media/diplomadoExtra.66cd2cd30f8e38f3b3f4.jpg",
@@ -81,12 +81,12 @@
     "static/media/chevron--left.svg": "/portafolio/static/media/chevron--left.fc934db72be803537ca830613f060f90.svg",
     "static/media/chevron--right.svg": "/portafolio/static/media/chevron--right.246f125318bf43b67e24b350e627ee2e.svg",
     "static/media/arrowRight.svg": "/portafolio/static/media/arrowRight.2a443afa18a8db97bd77c40bcf6a0d10.svg",
-    "main.9a77818b.css.map": "/portafolio/static/css/main.9a77818b.css.map",
-    "main.f7212d2d.js.map": "/portafolio/static/js/main.f7212d2d.js.map",
+    "main.c2e21adc.css.map": "/portafolio/static/css/main.c2e21adc.css.map",
+    "main.54dd1429.js.map": "/portafolio/static/js/main.54dd1429.js.map",
     "787.ae0d8d37.chunk.js.map": "/portafolio/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a77818b.css",
-    "static/js/main.f7212d2d.js"
+    "static/css/main.c2e21adc.css",
+    "static/js/main.54dd1429.js"
   ]
 }
