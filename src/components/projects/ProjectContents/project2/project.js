@@ -20,7 +20,7 @@ const Content = () =>{
                             <TabProjectContent
                                 description={'Diseño y desarrollo de la landing page, página de registro y página de agradecimiento'} 
                             >
-                                <WebProjectPresentation webViewImg={ProjectViewImg} height={'medium'} mockup={MockupImg} link={'https://diplomadoeninvestigacion.com/lanzamiento'}/>
+                                <WebProjectPresentation webViewImg={ProjectViewImg} height={'medium'} mockup={MockupImg} link={'https://diplomadoeninvestigacion.com'}/>
                             </TabProjectContent>
                     },
                     {

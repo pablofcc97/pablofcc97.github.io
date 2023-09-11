@@ -6,13 +6,16 @@
     top:0;
     transition: height .3s linear, top .3s linear;
     width:100%;
+    padding: 0;
 }
 .header--resized{
     height: 5rem;
     /*box-shadow: 0 2px 8px #00000038;*/
+    box-shadow: 0px -35px 25px 26px rgba(0, 0, 0, 0.2);
+    /*backdrop-filter: blur(10px);*/
 }
 .header--hide{
-    top:-5rem;
+    /*top:-5rem;*/
     height: 5rem;
 }
 .header .container{

@@ -1,8 +1,9 @@
 .services{
-    background-image:url('../../assets/servicesBackground.svg');
+    /*background-image:url('../../assets/servicesBackground.svg');
     background-position: center;
     background-size: cover;
-    padding:9.6rem 0 10.4rem;
+    padding:9.6rem 0 10.4rem;*/
+    background-color: var(--second-color);
 }
 .services__cards{
     gap:3.6rem;

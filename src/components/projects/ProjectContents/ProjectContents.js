@@ -8,8 +8,12 @@ import Project6 from './project6/project'
 import Project7 from './project7/project'
 import Project8 from './project8/project'
 import Project9 from './project9/project'
+import Project10 from './project10/project'
 
 const ProjectContents = [
+    <Project description={'SIPRO 3.0 es la nueva versión de un curso en linea SIPRO, la cual forma parte del diplomado en investigación científica que ofrece la Sociedad  Hispana de Investigadores científicos:'}>
+        <Project10/>
+    </Project>,
     <Project description={'SIPRO 3.0 es la nueva versión de un curso en linea SIPRO, la cual forma parte del diplomado en investigación científica que ofrece la Sociedad  Hispana de Investigadores científicos:'}>
         <Project1/>
     </Project>,

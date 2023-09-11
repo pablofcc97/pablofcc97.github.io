@@ -12,8 +12,7 @@ const Hero = () => {
                 <div className="hero__info flex">
                     <div className="hero__info__presentation">
                         <div className="hero__presentation__greeting flex">
-                            <span className="presentation__greeting__hi">Hola</span>
-                            <span className="presentation__greeting__iam">Soy</span>
+                            <span className="presentation__greeting__hi">¡Hola! soy</span>
                         </div>
                         <h1 className="hero__presentation__name"><span>Pablo Fabian </span><span> Cuba Chacón</span></h1>
                         <span className="hero__presentation__ocupation">Técnico Computación e Informática - Web developer junior</span>
@@ -21,7 +20,7 @@ const Hero = () => {
                     <div className="hero__info__contact">
                         <SocialIcons/>
                         <span className="hero__contact__mail">pablofcc97@gmail.com</span>
-                        <a href={CV} className="button hero__contact__cv" target="_blank" rel="noreferrer">Descargar CV</a>
+                        <a href={CV} className="button hero__contact__cv" target="_blank" rel="noreferrer">Descarga mi CV</a>
                     </div>
                 </div>
                 <img src={Foto} alt="" className="hero__photo" />

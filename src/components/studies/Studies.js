@@ -8,27 +8,22 @@ const Studies = () => {
             <div className="container">
                 <h2 className="section__title">Mi historial académico</h2>
                 <div className="studies__content">
-                    <Studie title={'I.E.S.T.P Pedro P. Diaz'} period={'(2018 - 2020)'} 
-                            content={<p>Como técnico titulado en Computación e Informática </p>}
+                    <Studie title={'FullStackOpen'} period={'(2023 - Actualmente)'}  
+                            content={<p>Curso de programación web moderna con el stack MERN. 
+                                Ofrecida gratuitamente por la universidad de Helsinki Finlandia</p>}
                     />
-                    <Studie title={'ED Team'} period={'(2021 - 2022)'}  alter={true}
+                    <Studie title={'Código By Tecsup'} period={'(2022 - 2022)'} alter={true}
+                            content={<p>Curso de especilización en programación con el framewrok Laravel</p>}
+                    />
+                    <Studie title={'ED Team'} period={'(2021 - 2022)'}  
                             content={
                                 <div>
-                                    <p>Cursos de: </p>
-                                    <ul>
-                                        <li>Diseño UI</li>
-                                        <li>HTML5</li>
-                                        <li>Css3</li>
-                                    </ul>
+                                    <p>Cursos cortos sobre: Desarrolo Wordpress, Diseño UI, SEO y CSS3</p>
                                 </div>
                             }
                     />
-                    <Studie title={'Código By Tecsup'} period={'(2022 - 2022)'} 
-                            content={<p>Curso de especilización en programación con Laravel</p>}
-                    />
-                    <Studie title={'FullStackOpen'} period={'(2023 - Actualmente)'}  alter={true}
-                            content={<p>Curso de programación web moderna con el stack MERN. 
-                                Ofrecido por la universidad de Helsinki Finlandia</p>}
+                    <Studie title={'I.E.S.T.P Pedro P. Diaz'} period={'(2018 - 2020)'} alter={true}
+                            content={<p>Carrera técnica de Computación e Informática </p>}
                     />
                 </div>
             </div>

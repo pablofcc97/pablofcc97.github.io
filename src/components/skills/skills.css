@@ -1,16 +1,17 @@
 .skills{
-    padding:9.6rem 0 10.4rem;
+    /*padding:9.6rem 0 10.4rem;
     background-image: url('../../assets/projectsBackground.svg');
     background-position: center;
-    background-size: cover;
+    background-size: cover;*/
     background-color: #eee;
 }
 .skills__grid{
     grid-template-columns: repeat(8, 1fr); 
 }
-.webSkills{
+.skillCard.webSkills{
     grid-column: 1/8;
     border-bottom: 1px solid var(--gray-color);
+    padding: 0 0 2rem;
 }
 .designSkills{
     grid-column: 1/4;
