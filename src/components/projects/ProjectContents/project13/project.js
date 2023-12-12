@@ -3,8 +3,8 @@ import './project.css'
 import TabTable from "../../../general/TabTable/TabTable"
 import TabProjectPresentation from "../TabProjectContent"
 import WebProjectPresentation from "../WebProjectPresentation"
-import ProjectViewImg from '../../../../assets/projects/bitacoraCaptura.jpg'
-import MockupImg from '../../../../assets/projects/mockupBitacora.png'
+import ProjectViewImg from '../../../../assets/projects/elencuentroCaptura.jpg'
+import MockupImg from '../../../../assets/projects/mockupElencuentro.png'
 
 const Content = () =>{
     return (
@@ -15,9 +15,9 @@ const Content = () =>{
                         title:'Diseño y Desarrollo Web ',
                         content: 
                         <TabProjectPresentation 
-                            description={'Diseño y desarrollo del blog y los artículos en general'} 
+                            description={'Diseño y desarrollo utilizando la tecnologia de Wordpress y Woocommerce '} 
                         >
-                            <WebProjectPresentation webViewImg={ProjectViewImg} height={'large'} mockup={MockupImg} link={'https://bitacorawp.com/'}/>
+                            <WebProjectPresentation webViewImg={ProjectViewImg} height={'short'} mockup={MockupImg} link={'https://elencuentro.digitalcartas.com/'}/>
                         </TabProjectPresentation>
                     }
                 ]

@@ -9,10 +9,22 @@ import Project7 from './project7/project'
 import Project8 from './project8/project'
 import Project9 from './project9/project'
 import Project10 from './project10/project'
+import Project11 from './project11/project'
+import Project12 from './project12/project'
+import Project13 from './project13/project'
 
 const ProjectContents = [
     <Project description={'BitácoraWP es un blog personal en el cual público artículos sobre los conocimientos, trucos, consejos que voy adquiriendo como desarrollador web y wordpress'}>
         <Project10/>
+    </Project>,
+    <Project description={'wikipelis es un aplicación creada en React en la que puedes ver información de diferentes peliculas. Consume el API de themoviedb.org'}>
+        <Project11/>
+    </Project>,
+    <Project description={'Digital Cartas es una landing page que ofrece cartas figitales para restaurantes y demas negocios gastronomicos'}>
+        <Project12/>
+    </Project>,
+    <Project description={'El encuentro es una carta digital muestra de una parrilleria ofrecida por digitalcartas.com'}>
+        <Project13/>
     </Project>,
     <Project description={'SIPRO 3.0 es la nueva versión de un curso en linea SIPRO, la cual forma parte del diplomado en investigación científica que ofrece la Sociedad  Hispana de Investigadores científicos:'}>
         <Project1/>

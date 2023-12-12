@@ -12,8 +12,14 @@ import SincieMockup from '../../../assets/carouselProjects/sincie.png'
 import SpssMockup from '../../../assets/carouselProjects/proyectoSpss.png'
 import TapifMockup from '../../../assets/carouselProjects/proyectoTapif.png'
 import BitacoraMockup from '../../../assets/carouselProjects/bitacoraWP.png'
+import WikipelisMockup from '../../../assets/carouselProjects/wikipelis.png'
+import DigitalcartasMockup from '../../../assets/carouselProjects/digitalcartas.png'
+import ElencuentroMockup from '../../../assets/carouselProjects/elencuentro.png'
 /*===IMAGES PROJECT LOGOS===*/
 import BitacoraLogo from '../../../assets/carouselProjects/bitacoraWP__banner.jpg'
+import WikipelisLogo from '../../../assets/carouselProjects/wikipelisBanner.jpg'
+import DigitalcartasLogo from '../../../assets/carouselProjects/digitalcartasBanner.jpg'
+import ElencuentroLogo from '../../../assets/carouselProjects/elencuentroBanner.jpg'
 import SiproLogo from '../../../assets/carouselProjects/sipro__banner.jpg'
 import DiploLogo from '../../../assets/carouselProjects/diplo__banner.jpg'
 import BioestadisticoLogo from '../../../assets/carouselProjects/bioestadistico__banner.jpg'
@@ -26,6 +32,9 @@ import TapifLogo from '../../../assets/carouselProjects/tapif__banner.jpg'
 
 const carousel =[
     <CarouselItem logo={BitacoraLogo}  mockup={BitacoraMockup} link={'https://bitacorawp.com/'}/>,
+    <CarouselItem logo={WikipelisLogo}  mockup={WikipelisMockup} link={'https://pablofcc97.github.io/wikipelis/'}/>,
+    <CarouselItem logo={DigitalcartasLogo}  mockup={DigitalcartasMockup} link={'https://digitalcartas.com/'}/>,
+    <CarouselItem logo={ElencuentroLogo}  mockup={ElencuentroMockup} link={'https://elencuentro.digitalcartas.com/'}/>,
     <CarouselItem logo={SiproLogo}  mockup={SiproMockup} link={'https://seminariosdeinvestigacion.com/3-0'}/>,
     <CarouselItem logo={DiploLogo}  mockup={DiploMockup} link={'https://diplomadoeninvestigacion.com/'}/>,
     <CarouselItem logo={BioestadisticoLogo}  mockup={BioestadisticoMockup} link={'https://bioestadistico.com/'}/>,
