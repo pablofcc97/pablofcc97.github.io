@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.8508b87a.css",
-    "main.js": "/portafolio/static/js/main.dec36a78.js",
+    "main.js": "/portafolio/static/js/main.094b36e7.js",
     "static/js/787.ae0d8d37.chunk.js": "/portafolio/static/js/787.ae0d8d37.chunk.js",
     "static/media/cv Pablo Fabian Cuba Chacon.pdf": "/portafolio/static/media/cv Pablo Fabian Cuba Chacon.1122754f8d32fa90b717.pdf",
     "static/media/diplomadoExtra.jpg": "/portafolio/static/media/diplomadoExtra.66cd2cd30f8e38f3b3f4.jpg",
     "static/media/siproCaptura.jpg": "/portafolio/static/media/siproCaptura.802a9216ea66d0170680.jpg",
     "static/media/bioestadisticoExtra.jpg": "/portafolio/static/media/bioestadisticoExtra.f8614686fc895b225642.jpg",
     "static/media/tapifCaptura.jpg": "/portafolio/static/media/tapifCaptura.b6eb483bc4b44babecf9.jpg",
+    "static/media/digitalcartasCaptura.jpg": "/portafolio/static/media/digitalcartasCaptura.c32fd62dd585dab34b22.jpg",
     "static/media/figma.svg": "/portafolio/static/media/figma.8b9b5c1d6d3aaa619012df9e38a5ee0e.svg",
     "static/media/kinderCaptura.jpg": "/portafolio/static/media/kinderCaptura.b87c3d38137bed05db5f.jpg",
     "static/media/bitacoraCaptura.jpg": "/portafolio/static/media/bitacoraCaptura.82b3fd92ba23c8de9158.jpg",
@@ -18,6 +19,7 @@
     "static/media/disenosDiplomado.png": "/portafolio/static/media/disenosDiplomado.15b51776e3c7ffaf698d.png",
     "static/media/disenosTapif.png": "/portafolio/static/media/disenosTapif.a8f225ccf6ea2f0a54f6.png",
     "static/media/siproExtra.jpg": "/portafolio/static/media/siproExtra.c3a5b8aa9e7a19bccb70.jpg",
+    "static/media/elencuentroCaptura.jpg": "/portafolio/static/media/elencuentroCaptura.bad3219b4772214e73fb.jpg",
     "static/media/bioestadisticoCaptura.jpg": "/portafolio/static/media/bioestadisticoCaptura.f2b668c309cc96f1b714.jpg",
     "static/media/joseSupoBlog.jpg": "/portafolio/static/media/joseSupoBlog.9438bd16640643b004bf.jpg",
     "static/media/spssCaptura.jpg": "/portafolio/static/media/spssCaptura.84e5abd7c4e336224ff4.jpg",
@@ -25,6 +27,10 @@
     "static/media/sinceCaptura.jpg": "/portafolio/static/media/sinceCaptura.d880b766f980837a0ed1.jpg",
     "static/media/Pablo Fabian Cuba Chacon.png": "/portafolio/static/media/Pablo Fabian Cuba Chacon.36e4e4e1cea65e905862.png",
     "static/media/proyectoSIPRO.png": "/portafolio/static/media/proyectoSIPRO.f0d870c673ab1fa3de1c.png",
+    "static/media/elencuentro.png": "/portafolio/static/media/elencuentro.7606d0992cf581944065.png",
+    "static/media/mockupElencuentro.png": "/portafolio/static/media/mockupElencuentro.7606d0992cf581944065.png",
+    "static/media/mockupWikipelis.png": "/portafolio/static/media/mockupWikipelis.45762bbd00dadf543752.png",
+    "static/media/wikipelis.png": "/portafolio/static/media/wikipelis.45762bbd00dadf543752.png",
     "static/media/cemtCaptura.jpg": "/portafolio/static/media/cemtCaptura.09ac449644a4103cfb82.jpg",
     "static/media/disenosCemt.png": "/portafolio/static/media/disenosCemt.a6aae9615112024e54f6.png",
     "static/media/proyectoSpss.png": "/portafolio/static/media/proyectoSpss.dd5e96bafaabede52ae7.png",
@@ -36,6 +42,7 @@
     "static/media/mockupJoseSupo.png": "/portafolio/static/media/mockupJoseSupo.387874374c624e7ea036.png",
     "static/media/proyectoDiplomado.png": "/portafolio/static/media/proyectoDiplomado.ac3e36dd2d291b85dd08.png",
     "static/media/spssExtra.jpg": "/portafolio/static/media/spssExtra.9fa3f9a224240bb169ee.jpg",
+    "static/media/wikipelisCaptura.jpg": "/portafolio/static/media/wikipelisCaptura.2c003b0751a8f4b2ef25.jpg",
     "static/media/mockupSpss.png": "/portafolio/static/media/mockupSpss.169584ad264d1dfdda28.png",
     "static/media/mockupDiplomado.png": "/portafolio/static/media/mockupDiplomado.98bad363baec35077c27.png",
     "static/media/mockupSipro.png": "/portafolio/static/media/mockupSipro.f80abffa749fb6f63ac8.png",
@@ -47,6 +54,8 @@
     "static/media/sipro__banner.jpg": "/portafolio/static/media/sipro__banner.cdf2dd5d6135793ee1df.jpg",
     "static/media/mockupCemt.png": "/portafolio/static/media/mockupCemt.92f3939da373195b4169.png",
     "static/media/mockupTapif.png": "/portafolio/static/media/mockupTapif.2bea958fc774d2b3a571.png",
+    "static/media/digitalcartas.png": "/portafolio/static/media/digitalcartas.987f3ddfefb7114a42d3.png",
+    "static/media/mockupDigitalcartas.png": "/portafolio/static/media/mockupDigitalcartas.987f3ddfefb7114a42d3.png",
     "static/media/bioestadistico.png": "/portafolio/static/media/bioestadistico.a9305e16bf072c302e65.png",
     "static/media/mockupBioestadistico.png": "/portafolio/static/media/mockupBioestadistico.a9305e16bf072c302e65.png",
     "static/media/cemt__banner.jpg": "/portafolio/static/media/cemt__banner.bf5b908d2e99e098cedc.jpg",
@@ -82,11 +91,11 @@
     "static/media/chevron--right.svg": "/portafolio/static/media/chevron--right.246f125318bf43b67e24b350e627ee2e.svg",
     "static/media/arrowRight.svg": "/portafolio/static/media/arrowRight.2a443afa18a8db97bd77c40bcf6a0d10.svg",
     "main.8508b87a.css.map": "/portafolio/static/css/main.8508b87a.css.map",
-    "main.dec36a78.js.map": "/portafolio/static/js/main.dec36a78.js.map",
+    "main.094b36e7.js.map": "/portafolio/static/js/main.094b36e7.js.map",
     "787.ae0d8d37.chunk.js.map": "/portafolio/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8508b87a.css",
-    "static/js/main.dec36a78.js"
+    "static/js/main.094b36e7.js"
   ]
 }
