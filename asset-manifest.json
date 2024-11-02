@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.26e01347.css",
-    "main.js": "/static/js/main.f5ac3372.js",
+    "main.css": "/static/css/main.cc4baeb9.css",
+    "main.js": "/static/js/main.e56c73e3.js",
     "static/js/787.ae0d8d37.chunk.js": "/static/js/787.ae0d8d37.chunk.js",
-    "static/media/cv Pablo Fabian Cuba Chacon.pdf": "/static/media/cv Pablo Fabian Cuba Chacon.1122754f8d32fa90b717.pdf",
+    "static/media/cv Pablo Fabian Cuba Chacon.pdf": "/static/media/cv Pablo Fabian Cuba Chacon.782e16fc943eb0c24da7.pdf",
     "static/media/diplomadoExtra.jpg": "/static/media/diplomadoExtra.66cd2cd30f8e38f3b3f4.jpg",
     "static/media/siproCaptura.jpg": "/static/media/siproCaptura.802a9216ea66d0170680.jpg",
     "static/media/bioestadisticoExtra.jpg": "/static/media/bioestadisticoExtra.f8614686fc895b225642.jpg",
@@ -90,12 +90,12 @@
     "static/media/chevron--left.svg": "/static/media/chevron--left.fc934db72be803537ca830613f060f90.svg",
     "static/media/chevron--right.svg": "/static/media/chevron--right.246f125318bf43b67e24b350e627ee2e.svg",
     "static/media/arrowRight.svg": "/static/media/arrowRight.2a443afa18a8db97bd77c40bcf6a0d10.svg",
-    "main.26e01347.css.map": "/static/css/main.26e01347.css.map",
-    "main.f5ac3372.js.map": "/static/js/main.f5ac3372.js.map",
+    "main.cc4baeb9.css.map": "/static/css/main.cc4baeb9.css.map",
+    "main.e56c73e3.js.map": "/static/js/main.e56c73e3.js.map",
     "787.ae0d8d37.chunk.js.map": "/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.26e01347.css",
-    "static/js/main.f5ac3372.js"
+    "static/css/main.cc4baeb9.css",
+    "static/js/main.e56c73e3.js"
   ]
 }
