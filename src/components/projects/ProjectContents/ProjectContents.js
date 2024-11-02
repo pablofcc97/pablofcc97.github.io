@@ -14,9 +14,9 @@ import Project12 from './project12/project'
 import Project13 from './project13/project'
 
 const ProjectContents = [
-    <Project description={'BitácoraWP es un blog personal en el cual público artículos sobre los conocimientos, trucos, consejos que voy adquiriendo como desarrollador web y wordpress'}>
+    /*<Project description={'BitácoraWP es un blog personal en el cual público artículos sobre los conocimientos, trucos, consejos que voy adquiriendo como desarrollador web y wordpress'}>
         <Project10/>
-    </Project>,
+    </Project>,*/
     <Project description={'wikipelis es un aplicación creada en React en la que puedes ver información de diferentes peliculas. Consume el API de themoviedb.org'}>
         <Project11/>
     </Project>,
