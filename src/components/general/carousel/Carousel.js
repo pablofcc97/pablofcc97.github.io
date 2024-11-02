@@ -14,7 +14,10 @@ const Carousel = ({items}) => {
 
     const [position, dispatch, itemsNumber] = useContext(PositionContext)
 
-    const moveLeft = () => dispatch({ type: "LEFT", itemsNumber: itemsNumber})
+    const moveLeft = () => {
+        console.log('click left')
+        dispatch({ type: "LEFT", itemsNumber: itemsNumber})
+    }
     const moveRight = () => dispatch({ type: "RIGHT", itemsNumber: itemsNumber})
 
     const styles={ transform: `translateX(-${position}00%)` }

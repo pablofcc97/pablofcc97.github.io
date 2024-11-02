@@ -6,6 +6,7 @@
 }
 .carousel__nav__button{
     cursor:pointer;
+    z-index: var(--z-tooltip);
 }
 .carousel__button{
     padding:0.5rem 2.2rem;

@@ -31,7 +31,7 @@ import SpssLogo from '../../../assets/carouselProjects/spss__banner.jpg'
 import TapifLogo from '../../../assets/carouselProjects/tapif__banner.jpg'
 
 const carousel =[
-    <CarouselItem logo={BitacoraLogo}  mockup={BitacoraMockup} link={'https://bitacorawp.com/'}/>,
+    //<CarouselItem logo={BitacoraLogo}  mockup={BitacoraMockup} link={'https://bitacorawp.com/'}/>,
     <CarouselItem logo={WikipelisLogo}  mockup={WikipelisMockup} link={'https://pablofcc97.github.io/wikipelis/'}/>,
     <CarouselItem logo={DigitalcartasLogo}  mockup={DigitalcartasMockup} link={'https://digitalcartas.com/'}/>,
     <CarouselItem logo={ElencuentroLogo}  mockup={ElencuentroMockup} link={'https://elencuentro.digitalcartas.com/'}/>,
