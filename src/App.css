@@ -168,6 +168,19 @@ img{
   display:inline-flex;
   align-items: center;
 }
+.button--secondary{
+  background-color: transparent;
+  cursor: pointer;
+  border: 2px solid var(--first-color);
+  outline: none;
+  display: inline-block;
+  color: var(--text-color);
+  transition: background-color .1s linear, transform .1s linear;
+}
+.button:hover{
+  background-color: var(--first-color--light);
+  transform: scale(1.03);
+}
 
 @media(max-width:1100px){
   :root{

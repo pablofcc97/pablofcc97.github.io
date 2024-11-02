@@ -20,7 +20,10 @@ const Hero = () => {
                     <div className="hero__info__contact">
                         <SocialIcons/>
                         <span className="hero__contact__mail">pablofcc97@gmail.com</span>
-                        <a href={CV} className="button hero__contact__cv" target="_blank" rel="noreferrer">Descarga mi CV</a>
+                        <div className="hero__contact__buttons flex">
+                            <a href="#proyectos" className="button" >Mis Proyectos</a>
+                            <a href={CV} className="button button--secondary hero__contact__cv secondary" target="_blank" rel="noreferrer">Descarga mi CV</a>
+                        </div>
                     </div>
                 </div>
                 <img src={Foto} alt="" className="hero__photo" />
